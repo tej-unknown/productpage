@@ -1,0 +1,97 @@
+<style>
+  body{
+
+  background-color: rgb(0, 0, 0 );
+color:white;
+    
+    display:flex;
+    justify-content:space-between;
+}
+a{
+ color:white;  
+  padding:0px 10px;
+  
+
+    
+}
+  header{
+    position:fixed;
+  }
+  nav{
+    position:fixed;
+    text-align:right;
+    margin:-70px 0px;
+    padding:0px 20px 0px 1200px;
+    
+  }
+  form{
+     text-align:center;
+    padding:80px 0px ;
+    
+    
+  }
+  input{
+    width:400px;
+  }
+  #first{
+   
+    padding:20px;
+  }
+ 
+  .card {
+  /* Add shadows to create the "card" effect */
+ 
+     background: linear-gradient(to bottom, #0F2027 45%,#203A43 55%, #2C5364 65%);
+    
+margin:0px 400px;
+}
+  @media{
+max-width:500x;
+    flex-wrap:wrap;
+  }
+</style>
+
+
+<div>
+
+<header id="header">
+  <img src="https://i.pinimg.com/originals/b7/dc/1d/b7dc1d30befac3e6b462748a4d12fc15.jpg" alt="logo" height=100px widht=30px id="header-img">
+  <nav id="nav-bar">
+    <a href="#features" class="nav-link">FEATURES</a>
+    <a href="#pricing" class="nav-link">PRICING</a>
+    <a href="#how_it_works" class="nav-link">HOW IT WORKS?</a>
+  </nav>
+</header>
+</div>
+
+  <br>
+  <br>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+       <h2>GET TO KNOW MORE<h2>
+         <input type=email id="email" name="email" placeholder="tej@gmail.com"></input><br>
+      <label for = "email"></label>
+         <input type=submit id="submit" name="submit" >
+    </form><br>
+      <section id="features">
+        <br>
+        <div class="an">
+        <h1>FEATURES</h1><br>
+         <img src=" https://i.pinimg.com/originals/29/e3/31/29e331a7276ab2af0a1d2a321d290591.jpg" alt="logo" height=100px widht=30px id="img"><br>
+        <h2 id="first"> <i>Silk ProCare for Minimising Heat Damage on Hair</i></h2>
+        <p id="first"><i>
+Plates smoother than silk glide through your hair with optimized <br>temperature, minimizing friction and resulting in less heat exposure. <br>Get the wow straight hair that feels like silk.</i></p>
+       </div>
+      </section>
+        
+      <section id="pricing"><div class="card">
+  
+    <h4><i> PRICING</i></h4>
+    <p>₹2,395</p>
+</div></section><br><br>
+      <section id="how_it_works">
+        <h1>HOW IT WORKS?</h1><br>
+          <iframe width="500" height="315"
+src="https://www.youtube.com/embed/EfT60SpAmaY" id="video">
+</iframe>
+        
+      </section>
